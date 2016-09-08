@@ -1,0 +1,128 @@
+{"events": [
+  {"time":"2016-08-29",
+    "desc": "John goes to a tech conference in Toronto",
+    "keywords": ["John", "Toronto"]
+  },
+  {"time":"2016-08-29",
+    "desc": "Mary organizes a tech conference in Toronto",
+    "keywords": ["Mary", "Toronto"]
+  },
+  {"time":"2016-08-30",
+    "desc": "John meets Mary in Toronto while at a tech conference",
+    "keywords": ["John", "Mary", "Toronto"]
+  },
+  {"time":"2016-08-31",
+    "desc": "John and Mary go on a date in Toronto",
+    "keywords": ["John", "Mary", "Toronto"]
+  },
+  {"time":"2016-09-01",
+    "desc": "John returns to Seattle after his conference",
+    "keywords": ["John", "Seattle"]
+  },
+  {"time":"2016-09-01",
+    "desc": "Adam moves to Seattle",
+    "keywords": ["Adam", "Seattle"]
+  },
+  {"time":"2016-09-02",
+    "desc": "Adam meets John in a Seattle coffee shop and decide to start a business together",
+    "keywords": ["Adam", "John", "Seattle"]
+  },
+  {"time":"2016-09-03",
+    "desc": "John and Adam recruit Mary to their business in Seattle",
+    "keywords": ["John", "Adam", "Mary", "Seattle"]
+  },
+  {"time":"2016-09-03",
+    "desc": "John and Adam recruit Don, an intern, to their Seattle business",
+    "keywords": ["John", "Adam", "Don", "Seattle"]
+  },
+  {"time":"2016-09-04",
+    "desc": "Mary suggests John and Adam to interview Tracy",
+    "keywords": ["Mary", "John", "Adam", "Seattle", "Tracy"]
+  },
+  {"time":"2016-09-05",
+    "desc": "John and Adam fly to Toronto to meet Tracy",
+    "keywords": ["John", "Adam", "Toronto", "Tracy"]
+  },
+  {"time":"2016-09-05",
+    "desc": "Mary sets up the office in Seattle with Don",
+    "keywords": ["Mary", "Don", "Seattle"]
+  },
+  {"time":"2016-09-06",
+    "desc": "John and Adam return to Seattle with Tracy",
+    "keywords": ["John", "Adam", "Seattle", "Tracy"]
+  },
+  {"time":"2016-09-07",
+    "desc": "John and Mary go to San Francisco to meet investors",
+    "keywords": ["John", "Mary", "San Francisco"]
+  },
+  {"time":"2016-09-08",
+    "desc": "Adam and Tracy start meeting clients together in Seattle",
+    "keywords": ["Adam", "Seattle", "Tracy"]
+  },
+  {"time":"2016-09-08",
+    "desc": "John and Mary goes to the pier in San Francisco for a date",
+    "keywords": ["John", "Mary", "San Francisco"]
+  },
+  {"time":"2016-09-09",
+    "desc": "John and Mary goes to the park in San Francisco for a date",
+    "keywords": ["John", "Mary", "San Francisco"]
+  },
+  {"time":"2016-09-10",
+    "desc": "John and Mary return to Seattle",
+    "keywords": ["John", "Mary", "Seattle"]
+  },
+  {"time":"2016-09-11",
+    "desc": "John and Adam move in together in Seattle",
+    "keywords": ["John", "Adam", "Seattle"]
+  },
+  {"time":"2016-09-11",
+    "desc": "Tracy and Don move in together in Seattle",
+    "keywords": ["Tracy", "Don", "Seattle"]
+  },
+  {"time":"2016-09-13",
+    "desc": "Adam joins a book club in Seattle",
+    "keywords": ["Adam", "Seattle"]
+  },
+  {"time":"2016-09-15",
+    "desc": "Tracy and Mary fly back to Toronto to see family",
+    "keywords": ["Tracy", "Mary", "Toronto"]
+  },
+  {"time":"2016-09-16",
+    "desc": "An illness in the family forces Mary to stay in Toronto",
+    "keywords": ["Mary", "Toronto"]
+  },
+  {"time":"2016-09-16",
+    "desc": "Tracy stays with Mary in Toronto for moral support",
+    "keywords": ["Tracy", "Mary", "Toronto"]
+  },
+  {"time":"2016-09-16",
+    "desc": "Adam promotes Don to fill in the gap left by Mary's absence",
+    "keywords": ["Adam", "Don", "Seattle"]
+  },
+  {"time":"2016-09-17",
+    "desc": "John rushes to finish his work for the month in hopes of visiting Mary",
+    "keywords": ["John", "Seattle"]
+  },
+  {"time":"2016-09-18",
+    "desc": "Adam and Don find a great Korean restaurant near their workplace",
+    "keywords": ["Adam", "Don", "Seattle"]
+  },
+  {"time":"2016-09-19",
+    "desc": "Tracy spends her last day in Toronto with Mary",
+    "keywords": ["Tracy", "Mary", "Toronto"]
+  },
+  {"time":"2016-09-20",
+    "desc": "Tracy returns to work in Seattle",
+    "keywords": ["Tracy", "Seattle"]
+  },
+  {"time":"2016-09-21",
+    "desc": "John finishes his month's worth of work with Adam's help",
+    "keywords": ["John", "Adam", "Seattle"]
+  },
+  {"time":"2016-09-22",
+    "desc": "John flies out to Toronto to support Mary",
+    "keywords": ["John", "Mary", "Toronto"]
+  }
+],
+"keywords": ["John", "Mary", "Adam", "Tracy", "Don", "Seattle", "Toronto", "San Francisco"]
+}

@@ -1,0 +1,55 @@
+.sidebarColumn {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.timelineColumn {
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+}
+
+.none-selected {
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.pleaseWork{
+  display: table-cell;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.hateConsumes{
+  display: table;
+}
+
+.d3-yaxis path,
+.d3-yaxis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.d3-yaxis text {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.d3-xaxis path,
+.d3-xaxis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.d3-xaxis text {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.gridlines line{
+  stroke-width: 1px;
+  stroke: black;
+  stroke-dasharray: 5,5
+}
