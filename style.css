@@ -14,14 +14,17 @@
     font-size: 1.2em;
 }
 
-.pleaseWork{
-  display: table-cell;
-  text-align:center;
-  vertical-align: middle;
-}
-
-.hateConsumes{
-  display: table;
+div.tooltip {
+  position: fixed;
+  text-align: center;
+  width: 300;
+  max-height: 100;
+  overflow: auto;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
 }
 
 .d3-yaxis path,
@@ -52,4 +55,14 @@
   stroke-width: 1px;
   stroke: black;
   stroke-dasharray: 5,5
+}
+
+line.linesTimeline{
+  stroke-width: 2px;
+}
+
+.legendEntry{
+  float: left; width: 12px;
+  height: 12px;
+  margin: 2px;
 }

@@ -9,7 +9,13 @@ export default class Timeline extends React.Component{
   render (){
     return (
       <Panel style={{"maxWidth":"100%", "overflow":"auto"}}>
-        <TimelineBody data={1} domain={this.props.domain} keywords={["John", "Adam"]} />
+        <TimelineBody
+          domain={this.props.domain}
+          yaxisKeywords={this.props.yaxisKeywords}
+          timelineKeywords={this.props.timelineKeywords}
+          events={this.props.events}
+          onOpenTooltip={this.props.onOpenTooltip}
+          tooltipState={this.props.tooltipState} />
       </Panel>
     );
   }

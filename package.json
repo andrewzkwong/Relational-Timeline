@@ -1,6 +1,6 @@
 {
-  "name": "react-webpack-template",
-  "version": "0.0.0",
+  "name": "relational-timeline",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {

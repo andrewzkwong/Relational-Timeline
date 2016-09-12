@@ -5,7 +5,6 @@ import FormControl from 'react-bootstrap/lib/FormControl';
 import ControlLabel from 'react-bootstrap/lib/ControlLabel';
 import Button from 'react-bootstrap/lib/Button';
 import Panel from 'react-bootstrap/lib/Panel';
-import { SelectableGroup, createSelectable } from 'react-selectable';
 import 'bootstrap-webpack';
 
 export default class Keywords extends React.Component{
@@ -37,13 +36,19 @@ export default class Keywords extends React.Component{
     this.props.onSendTimeline(selectedKeywords);
   }
 
+
   render (){
+    var optionList = this.props.keywords.map(function(d){
+      return(<option value={d} key={d}>{d}</option>)
+    })
     return (
       <Panel collapsible defaultExpanded header="Keywords">
           <FormGroup controlId="formControlsSelect">
-            <FormControl componentClass="select" ref={(c)=>this.forms=c} onChange={this.handleSelect} multiple>
-              <option value="select">select (multiple)</option>
-              <option value="other">...</option>
+            <FormControl componentClass="select"
+              ref={(c)=>this.forms=c}
+              style={{height:this.props.listHeight}}
+              multiple>
+              {optionList}
             </FormControl>
           </FormGroup>
           <Button onClick={this.handleClickYAxis}>

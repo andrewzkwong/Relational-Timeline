@@ -6,6 +6,7 @@ import d3chart from './d3chart.js';
 export default class TimelineBody extends React.Component{
   constructor(props){
     super(props);
+    this.handleOpenTooltip = this.handleOpenTooltip.bind(this);
   }
 
   componentDidMount(){
@@ -22,11 +23,18 @@ export default class TimelineBody extends React.Component{
     d3chart.update(el, this.getChartState());
   }
 
+  handleOpenTooltip(d){
+    this.props.onOpenTooltip(d);
+  }
+
   getChartState(){
     return {
-      data: this.props.data,
+      events: this.props.events,
       domain: this.props.domain,
-      yKeywords: this.props.keywords
+      yaxisKeywords: this.props.yaxisKeywords,
+      timelineKeywords: this.props.timelineKeywords,
+      clickHandler: this.handleOpenTooltip,
+      tooltipState: this.props.tooltipState
     };
   }
 

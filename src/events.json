@@ -124,5 +124,13 @@
     "keywords": ["John", "Mary", "Toronto"]
   }
 ],
-"keywords": ["John", "Mary", "Adam", "Tracy", "Don", "Seattle", "Toronto", "San Francisco"]
+"keywords": ["John", "Mary", "Adam", "Tracy", "Don", "Seattle", "Toronto", "San Francisco"],
+"presets": [
+  {"name": "Characters in Locations",
+    "yaxisKeywords": ["Seattle", "Toronto", "San Francisco"],
+    "timelineKeywords": ["John", "Mary", "Adam", "Tracy"]},
+  {"name": "Character Interactions",
+    "yaxisKeywords": ["John", "Mary", "Adam", "Tracy"],
+    "timelineKeywords": ["John", "Mary", "Adam", "Tracy"]}
+  ]
 }
