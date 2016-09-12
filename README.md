@@ -10,6 +10,7 @@ A running demo of Relational Timeline can be found [here](https://andrewzkwong.g
 In the demo, you'll find a timline of events that occur in a story where a group of people start a business together. You can try applying one of the preset timelines in the middle of the sidebar, where you'll be able to see timelines of characters in different locations or timelines of characters' interactions with other characters. You can also try making your own set of timelines by using the keywords on the top of the sidebar and putting the keywords as timelines or as y-axis elements.
 
 ## Installation
+Clone the repository, then run:
 
 ```
 $npm install
